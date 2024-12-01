@@ -97,7 +97,7 @@ const Home = () => {
                 />
             </Suspense> 
         </Canvas>
-        <div className='absolute bottom-5 left-5 z-60'>
+        <div className='absolute bottom-20 left-5 z-60'>
           <img
             src={!isPlayingMusic ? soundoff : soundon}
             className='w-10 h-10 object-contain cursor-pointer'
